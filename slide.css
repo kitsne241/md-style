@@ -60,7 +60,7 @@ section::after {
 
 @media (prefers-color-scheme: dark) {
   section {
-    background-image: url("https://kitsne241.github.io/md-style/dark.png");
+    background-image: url("https://kitsne241.github.io/md-style/dark-background.png");
   }
 
   section.title {
