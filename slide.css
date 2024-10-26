@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@200;300;400;500;600;700&display=swap');
 
 section {
-  background-image: url("./Resources/light-background.png");
+  background-image: url("https://kitsne241.github.io/md-style/light-background.png");
   background-size: cover;
 }
 
@@ -60,7 +60,7 @@ section::after {
 
 @media (prefers-color-scheme: dark) {
   section {
-    background-image: url("./Resources/dark-background.png");
+    background-image: url("https://kitsne241.github.io/md-style/dark.png");
   }
 
   section.title {
