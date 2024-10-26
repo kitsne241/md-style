@@ -6,8 +6,7 @@ body {
 	min-width: 360px;
 	padding: 60px 0px;
 	margin: 0 auto;
-	/* color: #b1c1cc; */
-	color: #FFFFFF;
+	color: #b1c1cc;
 	/* background-color: #131B23; */
 	/* font-family: "M+ 1c"; */
 }
@@ -57,12 +56,5 @@ ul, ol {
 p {
 	padding: 0px;
 	margin-top: 10px;
-	margin-bottom: 10px;
-}
-body::before {
-	content: "このテキストはプレビューのみに表示されます";
-	display: block;
-	font-size: 1.2em;
-	color: gray;
 	margin-bottom: 10px;
 }
