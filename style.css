@@ -8,6 +8,7 @@ body {
 	margin: 0 auto;
 	color: #b1c1cc;
 	/* background-color: #131B23; */
+	background-color: #1c1c20;
 	/* font-family: "M+ 1c"; */
 }
 code {
@@ -45,7 +46,7 @@ hr{
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 40px;
 	font-weight: 500;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.2em;
 	color: #C0C7D4;
 }
 ul, ol {
