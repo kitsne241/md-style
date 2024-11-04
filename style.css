@@ -7,15 +7,13 @@ body {
 	padding: 60px 0px;
 	margin: 0 auto;
 	color: #b1c1cc;
-	/* background-color: #131B23; */
 	background-color: #1c1c20;
-	/* font-family: "M+ 1c"; */
 }
 code {
 	font-weight: 400;
 	letter-spacing: 0px;
 	background-color: transparent;
-	color: #ff9b44;
+	color: #8abd99;
 }
 mark {
 	font-weight: 300;
@@ -41,7 +39,7 @@ em {
 	margin: 3px;
 }
 hr{
-	margin: 16px;
+	margin: 16px 0;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 40px;
@@ -54,6 +52,14 @@ ul, ol {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+ul li::marker, ol li::marker {
+	color: #ff9b44;
+}
+ul li, ol li {
+	color: #b1c1cc;
+}
+
 p {
 	padding: 0px;
 	margin-top: 10px;
