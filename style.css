@@ -7,7 +7,7 @@ body {
 	padding: 60px 0px;
 	margin: 0 auto;
 	color: #b1c1cc;
-	background-color: #19191d;
+	background-color: #16161a !important;
 }
 code {
 	font-weight: 400;
@@ -23,7 +23,7 @@ mark {
 blockquote {
 	border-radius: 0px;
 	margin-left: 8px;
-	padding: 0px 0px 0px 10px;
+	padding: 0px 0px 0px 8px;
 	background-color: transparent;
 	color:#869abf;
 	border-left: 4px solid rgb(139, 211, 32);
