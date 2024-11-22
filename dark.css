@@ -68,3 +68,6 @@ p {
 a {
 	color: #64e51f !important;
 }
+img {
+	display: block;
+}
