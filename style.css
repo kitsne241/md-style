@@ -75,7 +75,7 @@ blockquote {
 	padding: 0px 0px 0px 8px;
 	background-color: transparent;
 	color:#6d8185;
-	border-left: 4px solid rgb(189, 201, 203);
+	border-left: 4px solid #bdc9cb;
 }
 blockquote ul li::marker, blockquote ol li::marker {
 	color: #807ad0;
@@ -133,15 +133,15 @@ img {
 	}
 
 	blockquote {
-		color: #869abf;
+		color: #95aabe;
 		padding-left: 10px;
-		border-color: rgb(80, 90, 91);
+		border-color: #4f5b65;
 	}
 	blockquote ul li::marker, blockquote ol li::marker {
 		color: #bd854c;
 		font-weight: 500;
 	}
 	blockquote ul li, blockquote ol li {
-		color: #869abf;
+		color: #95aabe;
 	}
 }
