@@ -20,19 +20,27 @@ h1, h2, h3, h4, h5, h6 {
 /* コード、リンク、強調、数式の設定 */
 
 code {
-	font-weight: 400;
+	font-weight: 500;
 	letter-spacing: 0px;
 	background-color: transparent;
-	color: #7e6300;
+	padding: 0;
+	border-radius: 0;
+	border-bottom: 1px dashed white;
+	border-color: #6d8185;
+	color: #000000;
+}
+pre code {
+	border: 0;
 }
 em, mark {
 	font-weight: 400;
 	background-color: transparent;
-	color: #ff4d00;
+	color: #ff4d00 !important;
 	font-style: normal;
 }
 a {
-	color: #105bab !important;
+	color: #00438a !important;
+	font-weight: 500;
 }
 .katex {
 	letter-spacing: 0px;
@@ -77,9 +85,8 @@ blockquote {
 	color:#6d8185;
 	border-left: 4px solid #bdc9cb;
 }
-blockquote ul li::marker, blockquote ol li::marker {
-	color: #807ad0;
-	font-weight: 500;
+blockquote code {
+	color: #6d8185;
 }
 blockquote ul li, blockquote ol li {
 	color: #6d8185;
@@ -109,13 +116,15 @@ img {
 	}
 
 	code {
-		color: #8abd99;
+		font-weight: 400;
+		color: #b1c1cc;
+		border-color: #54616d;
 	}
 	em, mark {
-		color: #FFCC44;
+		color: #FFCC44 !important;
 	}
 	a {
-		color: #64e51f !important;
+		color: #46b8ff !important;
 	}
 
 	hr, tr, td {
@@ -133,15 +142,14 @@ img {
 	}
 
 	blockquote {
-		color: #7a8caf;
+		color: #54616d;
 		padding-left: 10px;
-		border-color: #4e5a75;
+		border-color: #3b4043;
 	}
-	blockquote ul li::marker, blockquote ol li::marker {
-		color: #bd854c;
-		font-weight: 500;
+	blockquote code {
+		color: #54616d;
 	}
 	blockquote ul li, blockquote ol li {
-		color: #7a8caf;
+		color: #54616d;
 	}
 }
